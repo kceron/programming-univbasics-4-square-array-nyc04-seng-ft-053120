@@ -8,6 +8,16 @@ def square_array(array)
   new_array 
 end
 
+def square_array(array)  
+count = 0   
+new_array = []    
+while count < array.length do     
+  new_array.push (array[counter]* array[counter])     
+  count += 1   
+  end      
+  new_array end
+
+
 =begin
 array = [1,2,3,4,5]
 new_array = []
